@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Factory Task Plate</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="factory-container">
+    <header class="factory-header">
+      <h1>TASK PLATE</h1>
+      <h4>Developed by Prashann</h4>
+      <div class="factory-divider"></div>
+      <p class="factory-total">TOTAL: <span id="total-time">0</span>/7H</p>
+    </header>
+    
+    <div class="factory-plate-container">
+      <svg id="factory-plate" width="280" height="280" viewBox="0 0 280 280">
+        <circle cx="140" cy="140" r="130" fill="#1a1a1a" stroke="#333" stroke-width="2"/>
+        <text x="140" y="140" text-anchor="middle" fill="#666" class="plate-empty-text">ADD TASKS</text>
+      </svg>
+    </div>
+    
+    <div class="factory-controls">
+      <div class="factory-input-group">
+        <input type="text" id="task-input" placeholder="TASK DESCRIPTION" class="factory-input">
+        <input type="number" id="time-input" placeholder="HOURS (E.G. 1.5)" min="0.1" step="0.1" class="factory-input">
+      </div>
+      <button id="add-task" class="factory-button">ADD TASK</button>
+    </div>
+    
+    <div class="factory-task-list" id="task-list">
+      <!-- Tasks will appear here -->
+    </div>
+  </div>
+  
+  <script src="js/popup.js"></script>
+</body>
+</html>

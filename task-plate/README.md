@@ -1,6 +1,8 @@
 # Task Plate - Chrome Extension
 
-Task Plate ![Extension Icon](icons/logo_for_github.png) 
+**Task Plate**
+
+![Extension Icon](icons/logo_for_github.png) 
 
 **You must have heard that people says i have many thing on my plate, but how much and do you see it?**
 A visual task manager that represents your daily tasks as portions on a plate, helping you manage your 7-hour workday with timers and notifications.

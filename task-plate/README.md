@@ -34,3 +34,5 @@ A visual task manager that represents your daily tasks as portions on a plate, h
 3. **Pin the extension**:
    - Click the puzzle icon in Chrome's toolbar
    - Pin the "Task Plate" extension for easy access
+  
+4. Dummy commit
